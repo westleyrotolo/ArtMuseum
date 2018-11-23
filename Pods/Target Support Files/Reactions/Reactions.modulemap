@@ -1,0 +1,6 @@
+framework module Reactions {
+  umbrella header "Reactions-umbrella.h"
+
+  export *
+  module * { export * }
+}

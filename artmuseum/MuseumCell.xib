@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MuseumCell" id="gTV-IL-0wX" customClass="MuseumCell" customModule="artmuseum" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="256" height="210"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="256" height="210"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WIg-fO-ePR">
+                        <rect key="frame" x="0.0" y="0.0" width="256" height="210"/>
+                    </imageView>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uO3-B8-ArX">
+                        <rect key="frame" x="0.0" y="139.5" width="256" height="70.5"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="yri-K2-hLj">
+                            <rect key="frame" x="0.0" y="0.0" width="256" height="70.5"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <blurEffect style="light"/>
+                    </visualEffectView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQ8-rn-0Yl">
+                        <rect key="frame" x="16" y="155.5" width="224" height="20.5"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        <color key="textColor" red="0.97807776489999998" green="0.99029391170000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77m-ku-buc">
+                        <rect key="frame" x="16" y="182" width="224" height="18"/>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                        <color key="textColor" red="0.97807776489999998" green="0.99029391170000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.97807776489999998" green="0.99029391170000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="77m-ku-buc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="5VF-vg-jUt"/>
+                <constraint firstItem="WIg-fO-ePR" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="7Fc-CY-zpR"/>
+                <constraint firstAttribute="trailing" secondItem="NQ8-rn-0Yl" secondAttribute="trailing" constant="16" id="Bmf-2U-nWC"/>
+                <constraint firstItem="uO3-B8-ArX" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="DTa-0K-Ko5"/>
+                <constraint firstItem="NQ8-rn-0Yl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="Dcr-QK-3AS"/>
+                <constraint firstAttribute="trailing" secondItem="77m-ku-buc" secondAttribute="trailing" constant="16" id="WnT-sM-4no"/>
+                <constraint firstAttribute="bottom" secondItem="uO3-B8-ArX" secondAttribute="bottom" id="WqW-iR-yg5"/>
+                <constraint firstItem="WIg-fO-ePR" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="X8z-Gk-ncy"/>
+                <constraint firstItem="uO3-B8-ArX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZyW-Um-eGu"/>
+                <constraint firstAttribute="bottom" secondItem="77m-ku-buc" secondAttribute="bottom" constant="10" id="bzj-aH-sWl"/>
+                <constraint firstItem="WIg-fO-ePR" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="cfC-iC-V78"/>
+                <constraint firstItem="uO3-B8-ArX" firstAttribute="top" secondItem="NQ8-rn-0Yl" secondAttribute="top" constant="-16" id="hQC-AC-uqi"/>
+                <constraint firstItem="77m-ku-buc" firstAttribute="top" secondItem="NQ8-rn-0Yl" secondAttribute="bottom" constant="6" id="hoE-Ra-Fet"/>
+                <constraint firstItem="WIg-fO-ePR" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="yCz-sM-B31"/>
+            </constraints>
+            <size key="customSize" width="182" height="109"/>
+            <connections>
+                <outlet property="cityMuseum" destination="77m-ku-buc" id="7FH-QU-KV3"/>
+                <outlet property="imageMuseum" destination="WIg-fO-ePR" id="PVd-At-Stu"/>
+                <outlet property="nameMuseum" destination="NQ8-rn-0Yl" id="Keq-PV-fKc"/>
+            </connections>
+            <point key="canvasLocation" x="100" y="83"/>
+        </collectionViewCell>
+    </objects>
+</document>

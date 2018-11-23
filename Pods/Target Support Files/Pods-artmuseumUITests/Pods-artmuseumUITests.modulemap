@@ -1,0 +1,6 @@
+framework module Pods_artmuseumUITests {
+  umbrella header "Pods-artmuseumUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

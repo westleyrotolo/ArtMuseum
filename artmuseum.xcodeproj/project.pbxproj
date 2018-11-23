@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F73EA91EF7C3A300FCBB85 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F73EA81EF7C3A300FCBB85 /* Artwork.swift */; };
+		50032A3D1EF574140003E2E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50032A3C1EF574140003E2E4 /* DetailViewController.swift */; };
+		50032A3F1EF575D40003E2E4 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50032A3E1EF575D40003E2E4 /* CategoryRow.swift */; };
+		50096A711EFB1A2B002F069A /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50096A701EFB1A2B002F069A /* Events.swift */; };
+		501395C31EFC7FC100880FF5 /* Uffizi.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501395C21EFC7FC100880FF5 /* Uffizi.xcassets */; };
+		501395C51EFCE41100880FF5 /* ReactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395C41EFCE41100880FF5 /* ReactionCollectionViewCell.swift */; };
+		501395C71EFCFC4900880FF5 /* TiketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395C61EFCFC4900880FF5 /* TiketsViewController.swift */; };
+		501395C91EFD0B4A00880FF5 /* TicketViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395C81EFD0B4A00880FF5 /* TicketViewCell.swift */; };
+		501395CB1EFD105600880FF5 /* InitialEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395CA1EFD105600880FF5 /* InitialEvents.swift */; };
+		501395CD1EFD106100880FF5 /* InitialNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395CC1EFD106100880FF5 /* InitialNews.swift */; };
+		501395D11EFD15B600880FF5 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395D01EFD15B600880FF5 /* EventsViewController.swift */; };
+		501395D31EFD1B4E00880FF5 /* Museum.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501395D21EFD1B4E00880FF5 /* Museum.xcassets */; };
+		501395D71EFD2C9700880FF5 /* InitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395D41EFD2C9700880FF5 /* InitialData.swift */; };
+		501395D81EFD2C9700880FF5 /* InitialData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395D51EFD2C9700880FF5 /* InitialData2.swift */; };
+		501395D91EFD2C9700880FF5 /* InitialData3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395D61EFD2C9700880FF5 /* InitialData3.swift */; };
+		501395DB1EFD2E0500880FF5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395DA1EFD2E0500880FF5 /* InfoViewController.swift */; };
+		501395DD1EFE886F00880FF5 /* EventsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501395DC1EFE886F00880FF5 /* EventsDetailViewController.swift */; };
+		502E5DA91EFBD7AC008F40DE /* MuseumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502E5DA81EFBD7AC008F40DE /* MuseumsViewController.swift */; };
+		502E5DAB1EFBEA2D008F40DE /* FAPaginationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502E5DAA1EFBEA2D008F40DE /* FAPaginationLayout.swift */; };
+		502E5DAE1EFBEAD9008F40DE /* MuseumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502E5DAC1EFBEAD9008F40DE /* MuseumCell.swift */; };
+		502E5DAF1EFBEAD9008F40DE /* MuseumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502E5DAD1EFBEAD9008F40DE /* MuseumCell.xib */; };
+		508CD1991EF48832006BC3B2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508CD1981EF48832006BC3B2 /* ProfileViewController.swift */; };
+		5093284A1EFBC70C007734FD /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509328491EFBC70C007734FD /* News.swift */; };
+		5093284C1EFBC7BF007734FD /* InitialMuseumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093284B1EFBC7BF007734FD /* InitialMuseumData.swift */; };
+		509F2B761EF81B53001D8B21 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509F2B751EF81B53001D8B21 /* img1.jpg */; };
+		509F2B781EF81B75001D8B21 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509F2B771EF81B75001D8B21 /* CustomTabBar.swift */; };
+		50B27F281EF7F77B002FA58F /* BeaconTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B27F271EF7F77B002FA58F /* BeaconTestViewController.swift */; };
+		50B27F2B1EF7FA20002FA58F /* artmuseum-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30B41EF300A400103D84 /* artmuseum-Bridging-Header.h */; };
+		50B27F2C1EF7FA20002FA58F /* customLayout.h in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30B71EF300CF00103D84 /* customLayout.h */; };
+		50B27F2F1EF7FA43002FA58F /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B27F2D1EF7FA43002FA58F /* Museum.swift */; };
+		50B27F301EF7FA43002FA58F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B27F2E1EF7FA43002FA58F /* User.swift */; };
+		50CE30721EF2BBF700103D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30711EF2BBF700103D84 /* AppDelegate.swift */; };
+		50CE30741EF2BBF700103D84 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30731EF2BBF700103D84 /* FirstViewController.swift */; };
+		50CE30761EF2BBF700103D84 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30751EF2BBF700103D84 /* SecondViewController.swift */; };
+		50CE30791EF2BBF700103D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CE30771EF2BBF700103D84 /* Main.storyboard */; };
+		50CE307B1EF2BBF700103D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CE307A1EF2BBF700103D84 /* Assets.xcassets */; };
+		50CE307E1EF2BBF700103D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CE307C1EF2BBF700103D84 /* LaunchScreen.storyboard */; };
+		50CE30A21EF2BF3D00103D84 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CE30A11EF2BF3D00103D84 /* Media.xcassets */; };
+		50CE30AC1EF2BFC800103D84 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30AB1EF2BFC800103D84 /* ExploreViewController.swift */; };
+		50CE30AE1EF2C8DB00103D84 /* imageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30AD1EF2C8DB00103D84 /* imageCell.swift */; };
+		50CE30B31EF2F86500103D84 /* ArtMuseumLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30B21EF2F86500103D84 /* ArtMuseumLayout.swift */; };
+		50CE30B61EF300A400103D84 /* customLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE30B51EF300A400103D84 /* customLayout.m */; };
+		50CE50C11EFEC80700E3C7FF /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE50C01EFEC80700E3C7FF /* NewsViewController.swift */; };
+		50CE50C51EFECB4000E3C7FF /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE50C41EFECB4000E3C7FF /* NewsDetailViewController.swift */; };
+		50CE50C71EFEE1E600E3C7FF /* CoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE50C61EFEE1E600E3C7FF /* CoinViewController.swift */; };
+		50D33D231EFFD72900520B62 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50D33D211EFFD72900520B62 /* UserModel.xcdatamodeld */; };
+		50D33D271EFFD86500520B62 /* Reactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D33D261EFFD86500520B62 /* Reactions.swift */; };
+		50D33D291EFFDA2E00520B62 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D33D281EFFDA2E00520B62 /* CoreDataController.swift */; };
+		50D33D2B1F00115A00520B62 /* Louvre.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D33D2A1F00115A00520B62 /* Louvre.xcassets */; };
+		50D33D2D1F00119000520B62 /* Metropolitan.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D33D2C1F00119000520B62 /* Metropolitan.xcassets */; };
+		50D33D2F1F003E0600520B62 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D33D2E1F003E0600520B62 /* Coupon.swift */; };
+		50D33D311F003E7E00520B62 /* InitialPrize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D33D301F003E7E00520B62 /* InitialPrize.swift */; };
+		50DA0DBD1F00F64A00D2E5C9 /* Annunciation_(Leonardo).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50DA0DBC1F00F64A00D2E5C9 /* Annunciation_(Leonardo).jpg */; };
+		50DA0DBF1F00F66600D2E5C9 /* Sandro_Botticelli_-_La_nascita_di_Venere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50DA0DBE1F00F66600D2E5C9 /* Sandro_Botticelli_-_La_nascita_di_Venere.jpg */; };
+		50DA0DC11F00F68000D2E5C9 /* Botticelli-primavera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50DA0DC01F00F68000D2E5C9 /* Botticelli-primavera.jpg */; };
+		50E7A9711EF94AF60078E6C6 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E7A9701EF94AF60078E6C6 /* ARViewController.swift */; };
+		50E7A9731EF9CAF20078E6C6 /* ARTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E7A9721EF9CAF20078E6C6 /* ARTableViewCell.swift */; };
+		50ED408F1EFF2D7A00337B67 /* ImageModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ED408E1EFF2D7A00337B67 /* ImageModalViewController.swift */; };
+		50EF18791F007F15007D49B0 /* ForceGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EF18781F007F15007D49B0 /* ForceGestureRecognizer.swift */; };
+		50F23D101EF8384C00FEABDF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F23D0F1EF8384C00FEABDF /* MapViewController.swift */; };
+		5E90AFBC29F3D5765FF72DD1 /* Pods_artmuseum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB0AF6AE458AE99BAD2F655 /* Pods_artmuseum.framework */; };
+		6A28D715DBB7EBEE30DC7C62 /* Pods_artmuseumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F00238F0995C962B05AE9F6 /* Pods_artmuseumUITests.framework */; };
+		F8A33B0912AA03BD19A703A7 /* Pods_artmuseumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86EB3A60B135B910BAEB0316 /* Pods_artmuseumTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50CE30851EF2BBF700103D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50CE30661EF2BBF700103D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50CE306D1EF2BBF700103D84;
+			remoteInfo = artmuseum;
+		};
+		50CE30901EF2BBF700103D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50CE30661EF2BBF700103D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50CE306D1EF2BBF700103D84;
+			remoteInfo = artmuseum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F73EA81EF7C3A300FCBB85 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		24D3CD262C293585A92C0DEC /* Pods-artmuseum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artmuseum.release.xcconfig"; path = "Pods/Target Support Files/Pods-artmuseum/Pods-artmuseum.release.xcconfig"; sourceTree = "<group>"; };
+		40EBE6A98C23464F13BC0E4B /* Pods-artmuseum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artmuseum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-artmuseum/Pods-artmuseum.debug.xcconfig"; sourceTree = "<group>"; };
+		4809A03808A5BAAB6BCBC4E7 /* Pods-artmuseumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artmuseumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-artmuseumTests/Pods-artmuseumTests.release.xcconfig"; sourceTree = "<group>"; };
+		50032A3C1EF574140003E2E4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		50032A3E1EF575D40003E2E4 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		50096A701EFB1A2B002F069A /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		501395C21EFC7FC100880FF5 /* Uffizi.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Uffizi.xcassets; sourceTree = "<group>"; };
+		501395C41EFCE41100880FF5 /* ReactionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactionCollectionViewCell.swift; sourceTree = "<group>"; };
+		501395C61EFCFC4900880FF5 /* TiketsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiketsViewController.swift; sourceTree = "<group>"; };
+		501395C81EFD0B4A00880FF5 /* TicketViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketViewCell.swift; sourceTree = "<group>"; };
+		501395CA1EFD105600880FF5 /* InitialEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialEvents.swift; sourceTree = "<group>"; };
+		501395CC1EFD106100880FF5 /* InitialNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialNews.swift; sourceTree = "<group>"; };
+		501395D01EFD15B600880FF5 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		501395D21EFD1B4E00880FF5 /* Museum.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Museum.xcassets; sourceTree = "<group>"; };
+		501395D41EFD2C9700880FF5 /* InitialData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialData.swift; sourceTree = "<group>"; };
+		501395D51EFD2C9700880FF5 /* InitialData2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialData2.swift; sourceTree = "<group>"; };
+		501395D61EFD2C9700880FF5 /* InitialData3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialData3.swift; sourceTree = "<group>"; };
+		501395DA1EFD2E0500880FF5 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		501395DC1EFE886F00880FF5 /* EventsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDetailViewController.swift; sourceTree = "<group>"; };
+		502E5DA81EFBD7AC008F40DE /* MuseumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumsViewController.swift; sourceTree = "<group>"; };
+		502E5DAA1EFBEA2D008F40DE /* FAPaginationLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAPaginationLayout.swift; sourceTree = "<group>"; };
+		502E5DAC1EFBEAD9008F40DE /* MuseumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumCell.swift; sourceTree = "<group>"; };
+		502E5DAD1EFBEAD9008F40DE /* MuseumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MuseumCell.xib; sourceTree = "<group>"; };
+		508CD1981EF48832006BC3B2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		509328491EFBC70C007734FD /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		5093284B1EFBC7BF007734FD /* InitialMuseumData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialMuseumData.swift; sourceTree = "<group>"; };
+		509F2B751EF81B53001D8B21 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img1.jpg; path = Media.xcassets/img1.imageset/img1.jpg; sourceTree = "<group>"; };
+		509F2B771EF81B75001D8B21 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		50B27F271EF7F77B002FA58F /* BeaconTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconTestViewController.swift; sourceTree = "<group>"; };
+		50B27F2D1EF7FA43002FA58F /* Museum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		50B27F2E1EF7FA43002FA58F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		50CE306E1EF2BBF700103D84 /* artmuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = artmuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CE30711EF2BBF700103D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50CE30731EF2BBF700103D84 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		50CE30751EF2BBF700103D84 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		50CE30781EF2BBF700103D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50CE307A1EF2BBF700103D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50CE307D1EF2BBF700103D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50CE307F1EF2BBF700103D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CE30841EF2BBF700103D84 /* artmuseumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = artmuseumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CE308F1EF2BBF700103D84 /* artmuseumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = artmuseumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CE30A11EF2BF3D00103D84 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		50CE30AB1EF2BFC800103D84 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		50CE30AD1EF2C8DB00103D84 /* imageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageCell.swift; sourceTree = "<group>"; };
+		50CE30B21EF2F86500103D84 /* ArtMuseumLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtMuseumLayout.swift; sourceTree = "<group>"; };
+		50CE30B41EF300A400103D84 /* artmuseum-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "artmuseum-Bridging-Header.h"; sourceTree = "<group>"; };
+		50CE30B51EF300A400103D84 /* customLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customLayout.m; sourceTree = "<group>"; };
+		50CE30B71EF300CF00103D84 /* customLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customLayout.h; sourceTree = "<group>"; };
+		50CE50C01EFEC80700E3C7FF /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		50CE50C41EFECB4000E3C7FF /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		50CE50C61EFEE1E600E3C7FF /* CoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinViewController.swift; sourceTree = "<group>"; };
+		50D33D221EFFD72900520B62 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
+		50D33D261EFFD86500520B62 /* Reactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reactions.swift; sourceTree = "<group>"; };
+		50D33D281EFFDA2E00520B62 /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		50D33D2A1F00115A00520B62 /* Louvre.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Louvre.xcassets; sourceTree = "<group>"; };
+		50D33D2C1F00119000520B62 /* Metropolitan.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Metropolitan.xcassets; sourceTree = "<group>"; };
+		50D33D2E1F003E0600520B62 /* Coupon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		50D33D301F003E7E00520B62 /* InitialPrize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialPrize.swift; sourceTree = "<group>"; };
+		50DA0DBC1F00F64A00D2E5C9 /* Annunciation_(Leonardo).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Annunciation_(Leonardo).jpg"; path = "Uffizi.xcassets/Annunciation_(Leonardo).imageset/Annunciation_(Leonardo).jpg"; sourceTree = "<group>"; };
+		50DA0DBE1F00F66600D2E5C9 /* Sandro_Botticelli_-_La_nascita_di_Venere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sandro_Botticelli_-_La_nascita_di_Venere.jpg"; path = "Uffizi.xcassets/Sandro_Botticelli_-_La_nascita_di_Venere.imageset/Sandro_Botticelli_-_La_nascita_di_Venere.jpg"; sourceTree = "<group>"; };
+		50DA0DC01F00F68000D2E5C9 /* Botticelli-primavera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Botticelli-primavera.jpg"; path = "Uffizi.xcassets/Botticelli-primavera.imageset/Botticelli-primavera.jpg"; sourceTree = "<group>"; };
+		50E7A9701EF94AF60078E6C6 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		50E7A9721EF9CAF20078E6C6 /* ARTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTableViewCell.swift; sourceTree = "<group>"; };
+		50ED408E1EFF2D7A00337B67 /* ImageModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModalViewController.swift; sourceTree = "<group>"; };
+		50EF18781F007F15007D49B0 /* ForceGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceGestureRecognizer.swift; sourceTree = "<group>"; };
+		50F23D0F1EF8384C00FEABDF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5F00238F0995C962B05AE9F6 /* Pods_artmuseumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artmuseumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB0AF6AE458AE99BAD2F655 /* Pods_artmuseum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artmuseum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805A80319F92B66464D6C9EF /* Pods-artmuseumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artmuseumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-artmuseumTests/Pods-artmuseumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86EB3A60B135B910BAEB0316 /* Pods_artmuseumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artmuseumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9873A066286D6C5A9523FD5D /* Pods-artmuseumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artmuseumUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-artmuseumUITests/Pods-artmuseumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD9A21BB42231757E461B699 /* Pods-artmuseumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artmuseumUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-artmuseumUITests/Pods-artmuseumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CE306B1EF2BBF700103D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E90AFBC29F3D5765FF72DD1 /* Pods_artmuseum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE30811EF2BBF700103D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A33B0912AA03BD19A703A7 /* Pods_artmuseumTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE308C1EF2BBF700103D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A28D715DBB7EBEE30DC7C62 /* Pods_artmuseumUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2A735392F44CB5288DE847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40EBE6A98C23464F13BC0E4B /* Pods-artmuseum.debug.xcconfig */,
+				24D3CD262C293585A92C0DEC /* Pods-artmuseum.release.xcconfig */,
+				805A80319F92B66464D6C9EF /* Pods-artmuseumTests.debug.xcconfig */,
+				4809A03808A5BAAB6BCBC4E7 /* Pods-artmuseumTests.release.xcconfig */,
+				DD9A21BB42231757E461B699 /* Pods-artmuseumUITests.debug.xcconfig */,
+				9873A066286D6C5A9523FD5D /* Pods-artmuseumUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		501395BC1EFC782E00880FF5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				501395D01EFD15B600880FF5 /* EventsViewController.swift */,
+				50B27F271EF7F77B002FA58F /* BeaconTestViewController.swift */,
+				50F23D0F1EF8384C00FEABDF /* MapViewController.swift */,
+				50E7A9721EF9CAF20078E6C6 /* ARTableViewCell.swift */,
+				50E7A9701EF94AF60078E6C6 /* ARViewController.swift */,
+				50CE30731EF2BBF700103D84 /* FirstViewController.swift */,
+				50CE30751EF2BBF700103D84 /* SecondViewController.swift */,
+				50CE30AB1EF2BFC800103D84 /* ExploreViewController.swift */,
+				508CD1981EF48832006BC3B2 /* ProfileViewController.swift */,
+				50032A3C1EF574140003E2E4 /* DetailViewController.swift */,
+				502E5DA81EFBD7AC008F40DE /* MuseumsViewController.swift */,
+				501395DA1EFD2E0500880FF5 /* InfoViewController.swift */,
+				501395C61EFCFC4900880FF5 /* TiketsViewController.swift */,
+				501395DC1EFE886F00880FF5 /* EventsDetailViewController.swift */,
+				50CE50C01EFEC80700E3C7FF /* NewsViewController.swift */,
+				50CE50C41EFECB4000E3C7FF /* NewsDetailViewController.swift */,
+				50CE50C61EFEE1E600E3C7FF /* CoinViewController.swift */,
+				50ED408E1EFF2D7A00337B67 /* ImageModalViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		501395BD1EFC788700880FF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50B27F2D1EF7FA43002FA58F /* Museum.swift */,
+				50B27F2E1EF7FA43002FA58F /* User.swift */,
+				50096A701EFB1A2B002F069A /* Events.swift */,
+				509328491EFBC70C007734FD /* News.swift */,
+				10F73EA81EF7C3A300FCBB85 /* Artwork.swift */,
+				50D33D261EFFD86500520B62 /* Reactions.swift */,
+				50D33D2E1F003E0600520B62 /* Coupon.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		501395BE1EFC789B00880FF5 /* initializers */ = {
+			isa = PBXGroup;
+			children = (
+				501395D41EFD2C9700880FF5 /* InitialData.swift */,
+				501395D51EFD2C9700880FF5 /* InitialData2.swift */,
+				501395D61EFD2C9700880FF5 /* InitialData3.swift */,
+				5093284B1EFBC7BF007734FD /* InitialMuseumData.swift */,
+				501395CA1EFD105600880FF5 /* InitialEvents.swift */,
+				501395CC1EFD106100880FF5 /* InitialNews.swift */,
+				50D33D301F003E7E00520B62 /* InitialPrize.swift */,
+			);
+			name = initializers;
+			sourceTree = "<group>";
+		};
+		501395BF1EFC78AA00880FF5 /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				509F2B771EF81B75001D8B21 /* CustomTabBar.swift */,
+				50CE30B51EF300A400103D84 /* customLayout.m */,
+				50CE30B41EF300A400103D84 /* artmuseum-Bridging-Header.h */,
+				50CE30B71EF300CF00103D84 /* customLayout.h */,
+				50CE30B21EF2F86500103D84 /* ArtMuseumLayout.swift */,
+				502E5DAA1EFBEA2D008F40DE /* FAPaginationLayout.swift */,
+				50EF18781F007F15007D49B0 /* ForceGestureRecognizer.swift */,
+			);
+			name = CustomControl;
+			sourceTree = "<group>";
+		};
+		501395C01EFC78DE00880FF5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				502E5DAC1EFBEAD9008F40DE /* MuseumCell.swift */,
+				502E5DAD1EFBEAD9008F40DE /* MuseumCell.xib */,
+				501395C41EFCE41100880FF5 /* ReactionCollectionViewCell.swift */,
+				50CE30AD1EF2C8DB00103D84 /* imageCell.swift */,
+				50032A3E1EF575D40003E2E4 /* CategoryRow.swift */,
+				501395C81EFD0B4A00880FF5 /* TicketViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		501395C11EFC78F500880FF5 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				50CE30771EF2BBF700103D84 /* Main.storyboard */,
+				50CE307C1EF2BBF700103D84 /* LaunchScreen.storyboard */,
+			);
+			name = Stories;
+			sourceTree = "<group>";
+		};
+		50CE30651EF2BBF700103D84 = {
+			isa = PBXGroup;
+			children = (
+				50DA0DC01F00F68000D2E5C9 /* Botticelli-primavera.jpg */,
+				50DA0DBE1F00F66600D2E5C9 /* Sandro_Botticelli_-_La_nascita_di_Venere.jpg */,
+				50DA0DBC1F00F64A00D2E5C9 /* Annunciation_(Leonardo).jpg */,
+				50D33D2C1F00119000520B62 /* Metropolitan.xcassets */,
+				50D33D2A1F00115A00520B62 /* Louvre.xcassets */,
+				50D33D281EFFDA2E00520B62 /* CoreDataController.swift */,
+				50D33D211EFFD72900520B62 /* UserModel.xcdatamodeld */,
+				501395D21EFD1B4E00880FF5 /* Museum.xcassets */,
+				501395C21EFC7FC100880FF5 /* Uffizi.xcassets */,
+				50CE30701EF2BBF700103D84 /* artmuseum */,
+				50CE306F1EF2BBF700103D84 /* Products */,
+				2B2A735392F44CB5288DE847 /* Pods */,
+				9806F46FC0B53F4A44CB32C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50CE306F1EF2BBF700103D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50CE306E1EF2BBF700103D84 /* artmuseum.app */,
+				50CE30841EF2BBF700103D84 /* artmuseumTests.xctest */,
+				50CE308F1EF2BBF700103D84 /* artmuseumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50CE30701EF2BBF700103D84 /* artmuseum */ = {
+			isa = PBXGroup;
+			children = (
+				501395C11EFC78F500880FF5 /* Stories */,
+				501395C01EFC78DE00880FF5 /* Cell */,
+				501395BF1EFC78AA00880FF5 /* CustomControl */,
+				501395BE1EFC789B00880FF5 /* initializers */,
+				501395BD1EFC788700880FF5 /* Model */,
+				501395BC1EFC782E00880FF5 /* ViewController */,
+				509F2B751EF81B53001D8B21 /* img1.jpg */,
+				50CE30711EF2BBF700103D84 /* AppDelegate.swift */,
+				50CE307A1EF2BBF700103D84 /* Assets.xcassets */,
+				50CE307F1EF2BBF700103D84 /* Info.plist */,
+				50CE30A11EF2BF3D00103D84 /* Media.xcassets */,
+			);
+			path = artmuseum;
+			sourceTree = "<group>";
+		};
+		9806F46FC0B53F4A44CB32C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB0AF6AE458AE99BAD2F655 /* Pods_artmuseum.framework */,
+				86EB3A60B135B910BAEB0316 /* Pods_artmuseumTests.framework */,
+				5F00238F0995C962B05AE9F6 /* Pods_artmuseumUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50CE306D1EF2BBF700103D84 /* artmuseum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CE30981EF2BBF700103D84 /* Build configuration list for PBXNativeTarget "artmuseum" */;
+			buildPhases = (
+				CBD1ADFAF612A0DC80E5059E /* [CP] Check Pods Manifest.lock */,
+				50CE306A1EF2BBF700103D84 /* Sources */,
+				50CE306B1EF2BBF700103D84 /* Frameworks */,
+				50CE306C1EF2BBF700103D84 /* Resources */,
+				1ACCCA44D1CAB542A8036523 /* [CP] Embed Pods Frameworks */,
+				18495A01517682FEA05B307B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = artmuseum;
+			productName = artmuseum;
+			productReference = 50CE306E1EF2BBF700103D84 /* artmuseum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50CE30831EF2BBF700103D84 /* artmuseumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CE309B1EF2BBF700103D84 /* Build configuration list for PBXNativeTarget "artmuseumTests" */;
+			buildPhases = (
+				C5E9C36F5234ED1DDC58B673 /* [CP] Check Pods Manifest.lock */,
+				50CE30801EF2BBF700103D84 /* Sources */,
+				50CE30811EF2BBF700103D84 /* Frameworks */,
+				50CE30821EF2BBF700103D84 /* Resources */,
+				7AD0B7345F49C88CDCAEA621 /* [CP] Embed Pods Frameworks */,
+				8EFD1B5467E414DD3AB901DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CE30861EF2BBF700103D84 /* PBXTargetDependency */,
+			);
+			name = artmuseumTests;
+			productName = artmuseumTests;
+			productReference = 50CE30841EF2BBF700103D84 /* artmuseumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50CE308E1EF2BBF700103D84 /* artmuseumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CE309E1EF2BBF700103D84 /* Build configuration list for PBXNativeTarget "artmuseumUITests" */;
+			buildPhases = (
+				E830010B97BDD341667E84C8 /* [CP] Check Pods Manifest.lock */,
+				50CE308B1EF2BBF700103D84 /* Sources */,
+				50CE308C1EF2BBF700103D84 /* Frameworks */,
+				50CE308D1EF2BBF700103D84 /* Resources */,
+				202782FB81C39A5C22413CE9 /* [CP] Embed Pods Frameworks */,
+				C50F0A87EC0C2437B4D1070B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CE30911EF2BBF700103D84 /* PBXTargetDependency */,
+			);
+			name = artmuseumUITests;
+			productName = artmuseumUITests;
+			productReference = 50CE308F1EF2BBF700103D84 /* artmuseumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50CE30661EF2BBF700103D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Westley Rotolo";
+				TargetAttributes = {
+					50CE306D1EF2BBF700103D84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K8WJKQA676;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					50CE30831EF2BBF700103D84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50CE306D1EF2BBF700103D84;
+					};
+					50CE308E1EF2BBF700103D84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50CE306D1EF2BBF700103D84;
+					};
+				};
+			};
+			buildConfigurationList = 50CE30691EF2BBF700103D84 /* Build configuration list for PBXProject "artmuseum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50CE30651EF2BBF700103D84;
+			productRefGroup = 50CE306F1EF2BBF700103D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50CE306D1EF2BBF700103D84 /* artmuseum */,
+				50CE30831EF2BBF700103D84 /* artmuseumTests */,
+				50CE308E1EF2BBF700103D84 /* artmuseumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50CE306C1EF2BBF700103D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE307E1EF2BBF700103D84 /* LaunchScreen.storyboard in Resources */,
+				50D33D2D1F00119000520B62 /* Metropolitan.xcassets in Resources */,
+				502E5DAF1EFBEAD9008F40DE /* MuseumCell.xib in Resources */,
+				509F2B761EF81B53001D8B21 /* img1.jpg in Resources */,
+				501395C31EFC7FC100880FF5 /* Uffizi.xcassets in Resources */,
+				50CE307B1EF2BBF700103D84 /* Assets.xcassets in Resources */,
+				50DA0DBF1F00F66600D2E5C9 /* Sandro_Botticelli_-_La_nascita_di_Venere.jpg in Resources */,
+				50CE30A21EF2BF3D00103D84 /* Media.xcassets in Resources */,
+				50D33D2B1F00115A00520B62 /* Louvre.xcassets in Resources */,
+				50CE30791EF2BBF700103D84 /* Main.storyboard in Resources */,
+				501395D31EFD1B4E00880FF5 /* Museum.xcassets in Resources */,
+				50DA0DBD1F00F64A00D2E5C9 /* Annunciation_(Leonardo).jpg in Resources */,
+				50DA0DC11F00F68000D2E5C9 /* Botticelli-primavera.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE30821EF2BBF700103D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE308D1EF2BBF700103D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18495A01517682FEA05B307B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-artmuseum/Pods-artmuseum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ACCCA44D1CAB542A8036523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-artmuseum/Pods-artmuseum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		202782FB81C39A5C22413CE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-artmuseumUITests/Pods-artmuseumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD0B7345F49C88CDCAEA621 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-artmuseumTests/Pods-artmuseumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFD1B5467E414DD3AB901DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-artmuseumTests/Pods-artmuseumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C50F0A87EC0C2437B4D1070B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-artmuseumUITests/Pods-artmuseumUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E9C36F5234ED1DDC58B673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD1ADFAF612A0DC80E5059E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E830010B97BDD341667E84C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50CE306A1EF2BBF700103D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E7A9711EF94AF60078E6C6 /* ARViewController.swift in Sources */,
+				501395DD1EFE886F00880FF5 /* EventsDetailViewController.swift in Sources */,
+				50B27F2B1EF7FA20002FA58F /* artmuseum-Bridging-Header.h in Sources */,
+				50B27F2C1EF7FA20002FA58F /* customLayout.h in Sources */,
+				50ED408F1EFF2D7A00337B67 /* ImageModalViewController.swift in Sources */,
+				501395D11EFD15B600880FF5 /* EventsViewController.swift in Sources */,
+				50D33D291EFFDA2E00520B62 /* CoreDataController.swift in Sources */,
+				50F23D101EF8384C00FEABDF /* MapViewController.swift in Sources */,
+				50CE50C51EFECB4000E3C7FF /* NewsDetailViewController.swift in Sources */,
+				50CE50C11EFEC80700E3C7FF /* NewsViewController.swift in Sources */,
+				50032A3D1EF574140003E2E4 /* DetailViewController.swift in Sources */,
+				50096A711EFB1A2B002F069A /* Events.swift in Sources */,
+				501395D91EFD2C9700880FF5 /* InitialData3.swift in Sources */,
+				501395C71EFCFC4900880FF5 /* TiketsViewController.swift in Sources */,
+				50B27F2F1EF7FA43002FA58F /* Museum.swift in Sources */,
+				50D33D231EFFD72900520B62 /* UserModel.xcdatamodeld in Sources */,
+				509F2B781EF81B75001D8B21 /* CustomTabBar.swift in Sources */,
+				10F73EA91EF7C3A300FCBB85 /* Artwork.swift in Sources */,
+				502E5DA91EFBD7AC008F40DE /* MuseumsViewController.swift in Sources */,
+				50B27F281EF7F77B002FA58F /* BeaconTestViewController.swift in Sources */,
+				501395C91EFD0B4A00880FF5 /* TicketViewCell.swift in Sources */,
+				501395CB1EFD105600880FF5 /* InitialEvents.swift in Sources */,
+				50CE50C71EFEE1E600E3C7FF /* CoinViewController.swift in Sources */,
+				50CE30AC1EF2BFC800103D84 /* ExploreViewController.swift in Sources */,
+				501395D71EFD2C9700880FF5 /* InitialData.swift in Sources */,
+				50B27F301EF7FA43002FA58F /* User.swift in Sources */,
+				50032A3F1EF575D40003E2E4 /* CategoryRow.swift in Sources */,
+				50D33D311F003E7E00520B62 /* InitialPrize.swift in Sources */,
+				5093284C1EFBC7BF007734FD /* InitialMuseumData.swift in Sources */,
+				50EF18791F007F15007D49B0 /* ForceGestureRecognizer.swift in Sources */,
+				50CE30761EF2BBF700103D84 /* SecondViewController.swift in Sources */,
+				501395DB1EFD2E0500880FF5 /* InfoViewController.swift in Sources */,
+				50D33D2F1F003E0600520B62 /* Coupon.swift in Sources */,
+				50CE30AE1EF2C8DB00103D84 /* imageCell.swift in Sources */,
+				502E5DAE1EFBEAD9008F40DE /* MuseumCell.swift in Sources */,
+				50CE30B31EF2F86500103D84 /* ArtMuseumLayout.swift in Sources */,
+				5093284A1EFBC70C007734FD /* News.swift in Sources */,
+				50D33D271EFFD86500520B62 /* Reactions.swift in Sources */,
+				50CE30721EF2BBF700103D84 /* AppDelegate.swift in Sources */,
+				501395C51EFCE41100880FF5 /* ReactionCollectionViewCell.swift in Sources */,
+				501395D81EFD2C9700880FF5 /* InitialData2.swift in Sources */,
+				50CE30B61EF300A400103D84 /* customLayout.m in Sources */,
+				508CD1991EF48832006BC3B2 /* ProfileViewController.swift in Sources */,
+				50E7A9731EF9CAF20078E6C6 /* ARTableViewCell.swift in Sources */,
+				502E5DAB1EFBEA2D008F40DE /* FAPaginationLayout.swift in Sources */,
+				50CE30741EF2BBF700103D84 /* FirstViewController.swift in Sources */,
+				501395CD1EFD106100880FF5 /* InitialNews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE30801EF2BBF700103D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE308B1EF2BBF700103D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50CE30861EF2BBF700103D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50CE306D1EF2BBF700103D84 /* artmuseum */;
+			targetProxy = 50CE30851EF2BBF700103D84 /* PBXContainerItemProxy */;
+		};
+		50CE30911EF2BBF700103D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50CE306D1EF2BBF700103D84 /* artmuseum */;
+			targetProxy = 50CE30901EF2BBF700103D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50CE30771EF2BBF700103D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CE30781EF2BBF700103D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50CE307C1EF2BBF700103D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CE307D1EF2BBF700103D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50CE30961EF2BBF700103D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50CE30971EF2BBF700103D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50CE30991EF2BBF700103D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40EBE6A98C23464F13BC0E4B /* Pods-artmuseum.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K8WJKQA676;
+				INFOPLIST_FILE = artmuseum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wes.artmuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "artmuseum/artmuseum-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50CE309A1EF2BBF700103D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D3CD262C293585A92C0DEC /* Pods-artmuseum.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K8WJKQA676;
+				INFOPLIST_FILE = artmuseum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wes.artmuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "artmuseum/artmuseum-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		50CE309C1EF2BBF700103D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805A80319F92B66464D6C9EF /* Pods-artmuseumTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = artmuseumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wesoft.artmuseumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/artmuseum.app/artmuseum";
+			};
+			name = Debug;
+		};
+		50CE309D1EF2BBF700103D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4809A03808A5BAAB6BCBC4E7 /* Pods-artmuseumTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = artmuseumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wesoft.artmuseumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/artmuseum.app/artmuseum";
+			};
+			name = Release;
+		};
+		50CE309F1EF2BBF700103D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9A21BB42231757E461B699 /* Pods-artmuseumUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = artmuseumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wesoft.artmuseumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = artmuseum;
+			};
+			name = Debug;
+		};
+		50CE30A01EF2BBF700103D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9873A066286D6C5A9523FD5D /* Pods-artmuseumUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = artmuseumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wesoft.artmuseumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = artmuseum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50CE30691EF2BBF700103D84 /* Build configuration list for PBXProject "artmuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE30961EF2BBF700103D84 /* Debug */,
+				50CE30971EF2BBF700103D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CE30981EF2BBF700103D84 /* Build configuration list for PBXNativeTarget "artmuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE30991EF2BBF700103D84 /* Debug */,
+				50CE309A1EF2BBF700103D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CE309B1EF2BBF700103D84 /* Build configuration list for PBXNativeTarget "artmuseumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE309C1EF2BBF700103D84 /* Debug */,
+				50CE309D1EF2BBF700103D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CE309E1EF2BBF700103D84 /* Build configuration list for PBXNativeTarget "artmuseumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE309F1EF2BBF700103D84 /* Debug */,
+				50CE30A01EF2BBF700103D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50D33D211EFFD72900520B62 /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50D33D221EFFD72900520B62 /* UserModel.xcdatamodel */,
+			);
+			currentVersion = 50D33D221EFFD72900520B62 /* UserModel.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50CE30661EF2BBF700103D84 /* Project object */;
+}
