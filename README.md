@@ -49,7 +49,7 @@
       <img src="Screenshot/8.Info.png" title="Info">
     </td>
     <td>
-      <img src="Screenshot/9.Events.png" title="Events">
+      <img src="Screenshot/9.Event.png" title="Events">
     </td>
   </tr>
   <tr>
