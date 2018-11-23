@@ -23,5 +23,5 @@ Profile | Maps | Notification
 
 Preview Notification | Force Touch | Reactions
 ------------ | ------------ | ------------
-![Near](Screenshot/16.Notifica.png)|[![Force Touch](https://img.youtube.com/vi/HWrpk6ulk8M/maxresdefault.jpg)](https://youtu.be/HWrpk6ulk8M)|[![Reactions](https://img.youtube.com/vi/xNIlBF0wU6s/maxresdefault.jpg)](https://youtu.be/xNIlBF0wU6s)
+![Near](Screenshot/16.Notifica.png)|[![Force Touch](https://img.youtube.com/vi/HWrpk6ulk8M/maxresdefault.jpg)](https://youtu.be/HWrpk6ulk8M)|[![Reactions](https://img.youtube.com/vi/HWrpk6ulk8M/maxresdefault.jpg)](https://youtu.be/xNIlBF0wU6s)
 
