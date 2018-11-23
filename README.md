@@ -1,5 +1,5 @@
 # ArtMuseum
-## iOS Developer Academy Project
+## iOS Developer Academy Project @ Unisa 
 
 Choose Museum | Home | Explore
 ------------ | ------------ | ------------
